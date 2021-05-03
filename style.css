@@ -1,6 +1,6 @@
 :root {
   --bg-white: rgba(245, 241, 241, 0.034);
-  --br: 2%;
+  --br: 8px;
   --border: solid 0.8px rgba(255, 255, 255, 0.212);
   --shadow: 0 8px 10px 3px rgba(0, 0, 0, 0.1);
   --bgc-sidebar: rgba(0, 0, 0, 0.1);
@@ -69,7 +69,7 @@ h4 {
 }
 
 .profile {
-  border-radius: 20%;
+  border-radius: var(--br);
   box-shadow: var(--shadow);
 }
 
