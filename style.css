@@ -1,6 +1,6 @@
 :root {
   --bg-white: rgba(245, 241, 241, 0.034);
-  --br: 15px;
+  --br: 2%;
   --border: solid 0.8px rgba(255, 255, 255, 0.212);
   --shadow: 0 8px 10px 3px rgba(0, 0, 0, 0.1);
   --bgc-sidebar: rgba(0, 0, 0, 0.1);
