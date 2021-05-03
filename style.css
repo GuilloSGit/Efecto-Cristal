@@ -1,7 +1,7 @@
 :root {
   --bg-white: rgba(245, 241, 241, 0.034);
   --br: 15px;
-  --border: solid 0.5px rgba(255, 255, 255, 0.082);
+  --border: solid 0.8px rgba(255, 255, 255, 0.212);
   --shadow: 0 8px 10px 3px rgba(0, 0, 0, 0.1);
   --bgc-sidebar: rgba(0, 0, 0, 0.1);
   --white-text: white;
@@ -15,7 +15,6 @@ body {
   margin-top: 50px;
 }
 h4 {
-  font-size: medium;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -80,8 +79,8 @@ section {
 }
 
 main .header h4 {
-  color: var(--white-text);
-  font-size: 28px;
+  color: rgba(255, 255, 255, 0.363);
+  font-size: 15px;
   margin: 10px 0;
 }
 
