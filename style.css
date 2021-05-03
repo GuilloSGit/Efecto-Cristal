@@ -192,4 +192,13 @@ main .header span {
     padding: 20px;
     width: 95%;
   }
+  main .header h4 {
+    font-size: 12px;
+  }
+  .card .right .task {
+    font-size: 15px;
+  }
+  .card .buttons {
+    padding: 10px;
+  }
 }
