@@ -5,6 +5,7 @@
   --shadow: 0 8px 10px 3px rgba(0, 0, 0, 0.1);
   --bgc-sidebar: rgba(116, 104, 104, 0.1);
   --white-text: white;
+  --light-white-text: rgba(255, 255, 255, 0.691);
 }
 body {
   background-image: url(img/bg.jpg);
@@ -75,11 +76,11 @@ h4 {
 
 section {
   padding: 20px;
-  width: 70%;
+  width: 80%;
 }
 
 main .header h4 {
-  color: rgba(255, 255, 255, 0.363);
+  color: var(--light-white-text);
   font-size: 15px;
   margin: 10px 0;
 }
@@ -110,7 +111,8 @@ main .header span {
 }
 
 .card .left {
-  padding-right: 3%;
+  margin-top: 8px;
+  padding-right: 5%;
 }
 
 .card .right {
@@ -135,7 +137,7 @@ main .header span {
 
 .card .right .progress .fill {
   height: 10px;
-  margin: 10px 0;
+  margin: 3px 0;
 }
 
 .card .right .progress .fill.fill-20 {
@@ -181,6 +183,12 @@ main .header span {
 .btn:hover {
   background-color: rgba(12, 10, 6, 0.514);
   box-shadow: var(--shadow);
+}
+
+@media screen and (max-width: 399px) {
+  main .header h4 {
+    margin-right: 15%;
+  }
 }
 
 @media screen and (max-width: 700px) {
